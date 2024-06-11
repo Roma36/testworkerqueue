@@ -2,9 +2,9 @@ locals {
   stacks = [for i in range(1, 121) : {
     name        = "Kubernetes Cluster ${i}"
     description = "Provisions a Kubernetes cluster"
-    branch      = "master"
-    repository  = "addressbook"
-    worker_pool_id = "01HNK02PZAPP4YFH4C0JE2J8Y4"
+    branch      = "main"
+    repository  = "testworkerqueue"
+    worker_pool_id = "01HKWHJ7NNSKESHM0SSPS1ZYZD"
   }]
 }
 
