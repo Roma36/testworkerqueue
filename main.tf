@@ -3,7 +3,7 @@ locals {
     name        = "Kubernetes Cluster ${i}"
     description = "Provisions a Kubernetes cluster"
     branch      = "main"
-    repository  = "address-book"
+    repository  = "addressbook"
     worker_pool_id = "01HNK02PZAPP4YFH4C0JE2J8Y4"
   }]
 }
